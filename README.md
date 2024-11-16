@@ -19,6 +19,7 @@ This project is a simple Java application that demonstrates the usage of Hiberna
 
 ## Project Structure
 The project is structured as follows:
+```
 src 
 ├── main
 │ ├── java
@@ -36,7 +37,7 @@ src
 │ │ └── HibernateUtile.java # Utility class for Hibernate configuration
 │ └── resources
 │ └── hibernate.cfg.xml # Hibernate configuration file
-
+```
 
 ## Configuration
 
