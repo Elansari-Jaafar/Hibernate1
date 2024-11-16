@@ -19,7 +19,23 @@ This project is a simple Java application that demonstrates the usage of Hiberna
 
 ## Project Structure
 The project is structured as follows:
-src ├── main │ ├── java │ │ ├── dao │ │ │ └── IDao.java # DAO Interface │ │ ├── entities │ │ │ ├── Machine.java # Entity for Machine │ │ │ └── Salle.java # Entity for Salle │ │ ├── services │ │ │ ├── MachineService.java # Service for Machine operations │ │ │ └── SalleService.java # Service for Salle operations │ │ ├── test │ │ │ └── Test.java # JUnit test class │ │ └── util │ │ └── HibernateUtile.java # Utility class for Hibernate configuration │ └── resources │ └── hibernate.cfg.xml # Hibernate configuration file
+src 
+├── main
+│ ├── java
+│ │ ├── dao
+│ │ │ └── IDao.java # DAO Interface
+│ │ ├── entities
+│ │ │ ├── Machine.java # Entity for Machine
+│ │ │ └── Salle.java # Entity for Salle
+│ │ ├── services
+│ │ │ ├── MachineService.java # Service for Machine operations
+│ │ │ └── SalleService.java # Service for Salle operations
+│ │ ├── test
+│ │ │ └── Test.java # JUnit test class
+│ │ └── util
+│ │ └── HibernateUtile.java # Utility class for Hibernate configuration
+│ └── resources
+│ └── hibernate.cfg.xml # Hibernate configuration file
 
 
 ## Configuration
@@ -49,7 +65,9 @@ The database connection is configured in `hibernate.cfg.xml`. Update the followi
 ```
 ## `Setup`
 1- Clone the repository
+```
 git clone https://github.com/Elansari-Jaafar/Hibernate1.git
+```
 2- Open the project in your preferred Java IDE (e.g., IntelliJ IDEA).
 3- Ensure your MySQL database is running and the schema is created.
 4- Update hibernate.cfg.xml with the correct database credentials.
@@ -63,5 +81,7 @@ Execute your business logic through these services, and observe SQL statements i
 
 ## `Testing`
 JUnit is used for testing. To run tests, execute:
+```
 mvn test
+```
 Tests are located in the test package and are designed to validate the functionality of Hibernate mappings and service methods.
