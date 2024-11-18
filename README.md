@@ -1,4 +1,4 @@
-# Hibernate1 Project
+# Hibernate2 Project
 
 This project is a simple Java application that demonstrates the usage of Hibernate for ORM (Object-Relational Mapping) with a MySQL database. It includes DAO, service, and utility layers to manage entities and database transactions effectively.
 
