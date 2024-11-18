@@ -86,3 +86,9 @@ JUnit is used for testing. To run tests, execute:
 mvn test
 ```
 Tests are located in the test package and are designed to validate the functionality of Hibernate mappings and service methods.
+
+## Author
+### Elansari Jaafar
+[GitHub Profile](https://github.com/Elansari-Jaafar)
+## License
+This project is open-source and available under the **MIT License**.
